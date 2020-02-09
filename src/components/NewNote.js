@@ -19,6 +19,7 @@ const NewNote = (props) => {
   )
 }
 
-export default connect(null, 
+export default connect(
+  null, 
   {createNote}
 )(NewNote)
